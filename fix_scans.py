@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.16.3"
-app = marimo.App()
+app = marimo.App(width="medium")
 
 
 @app.cell(hide_code=True)
@@ -19,11 +19,6 @@ def _():
     from datetime import date
     import os
     return Path, mo, os
-
-
-@app.cell
-def _():
-    return
 
 
 @app.cell
